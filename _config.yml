@@ -23,4 +23,4 @@ github_username:  dlm2dh
 
 # Build settings
 markdown: kramdown
-theme: glas
+theme: minima
