@@ -244,7 +244,6 @@ permalink: /
 
 <section id="learning" class="project gray-section features">
     <div class="container" id="learnings">
-      <!--
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
@@ -252,10 +251,31 @@ permalink: /
             </div>
         </div>
         <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+              <!-- TODO add suggestions@dougmilvaney.com email -->
+                <p><span data="learning.des">
+                  I love learning.  I seek out and consume a ton of information daily to grow myself personally and professionally. Here are some books, podcasts, and blogs I'm currently hooked on and find immensely entertaining and valuable.  If you have suggestions for other awesome content I should take a look at, please let me know!
+                </span></p>
+            </div>
+        </div>
+        <!--
+        <ul>
+          <li>Seeking Wisdom</li>
+          <li>Product Hunt</li>
+          <li>Tech In Boston</li>
+          <li>a16z</li>
+          <li>Good Beer Hunting</li>
+          <li>Quench Your Own Thirst</li>
+          <li>Lean Analytics</li>
+          <li>The Hard Thing About Hard Things</li>
+          <li>Food & Beer</li>
+        </ul>
+      -->
+        <div class="row">
             <div class="col-sm-6 wow fadeInLeft">
                 <div class="team-member">
-                    <img src="{{ site.project.saplatform.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.saplatform.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.saplatform.name }}</a></h4>
+                    <img src="{{ site.learnings.quenchyourownthirst.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><a href="{{ site.learnings.quenchyourownthirst.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.learnings.quenchyourownthirst.name }}</a></h4>
                     <p><span data="projects.saplatform">Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.</span></p>
                     <ul class="list-inline">
                         <li>
