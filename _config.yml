@@ -15,10 +15,9 @@ author:
   first_name: 'Doug'
   last_name: 'Milvaney'
   email: 'dlm2dh@gmail.com'
-  #facebook_username: 'jiakunnj'
   github_username: 'dlm2dh'
-  twitter_username: dmilvaney
-  head_img: 'static/img/landing/Jack.jpg'
+  twitter_username: 'dmilvaney'
+  head_img: 'static/img/landing/doug.jpg'
 
 # landing page
 landing:
@@ -26,9 +25,9 @@ landing:
   about: 'About'
   career: 'Career'
   skills: 'Skills'
-  projects: 'Project'
+  projects: 'Projects'
+  learning: 'Learning'
   blog: 'Blog'
-  link: 'Link'
 
 # my projects
 project:
@@ -58,11 +57,6 @@ index:
   database: 'Database'
   mac: 'Mac'
   life: 'Life'
-
-# donate
-donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
 
 # google analytics
 #ga:
