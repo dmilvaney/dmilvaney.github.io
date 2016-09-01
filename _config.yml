@@ -54,6 +54,10 @@ learnings:
     name: 'Quench Your Own Thirst'
     url: 'https://www.amazon.com/Quench-Your-Own-Thirst-Business-ebook/dp/B0166RX444/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1472733553&sr=1-1&keywords=quench+your+own+thirst#nav-subnav'
     img: 'static/img/landing/quench_your_own_thirst.jpg'
+  leananalytics:
+    name: 'Lean Analytics'
+    url: 'https://www.amazon.com/Lean-Analytics-Better-Startup-Faster-ebook/dp/B00AG66LTM/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1472745154&sr=1-1&keywords=lean+analytics#nav-subnav'
+    img: 'static/img/landing/lean_analytics.jpg'
 
 # blog index
 index:
