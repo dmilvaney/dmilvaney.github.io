@@ -375,54 +375,6 @@ permalink: /
         init();
 
     })();
-    // Activate WOW.js plugin for animation on scrol
+    // Activate WOW.js plugin for animation on scroll
     new WOW().init();
-</script>
-
-<script>
-    $(document).ready(function (){
-        $.i18n.init({
-            resGetPath: 'static/locales/__lng__.json',
-            load: 'unspecific',
-            fallbackLng: false,
-            lng: 'en'
-        }, function (t){
-            $('.i18container').i18n();
-            // $('#title').i18n();
-            $('#navbar').i18n();
-            $('#about_me').i18n();
-            $('#projects').i18n();
-            $('#career').i18n();
-            $('#learning').i18n();
-            $('#blog').i18n();
-        });
-        $('.set_en').on('click', function (){
-            i18n.setLng('en', function(){
-                $('.i18container').i18n();
-                // $('#title').i18n();
-                $('#navbar').i18n();
-                $('#about_me').i18n();
-                $('#projects').i18n();
-                $('#career').i18n();
-                $('#learning').i18n();
-                $('#blog').i18n();
-                // $('.set_en').addClass('active');
-                // $('.set_cn').removeClass('active');
-            });
-        });
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
-                $('.i18container').i18n();
-                // $('#title').i18n();
-                $('#navbar').i18n();
-                $('#about_me').i18n();
-                $('#projects').i18n();
-                $('#career').i18n();
-                $('#learning').i18n();
-                $('#blog').i18n();
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
-            });
-        });
-    });
 </script>
