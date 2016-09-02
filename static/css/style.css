@@ -1622,6 +1622,11 @@ div.dt-button-info {
     float: none;
   }
 }
+/* SOCIAL */
+.img-social {
+  width: 16px;
+  height: 16px;
+}
 /* CIRCLE */
 .img-circle {
   border-radius: 50%;
