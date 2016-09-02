@@ -32,10 +32,10 @@ landing:
 
 # my projects
 project:
-  saplatform:
-    name: 'Saplatform'
-    url: '/Jack614/saplatform'
-    img: 'static/img/landing/saplatform.png'
+  giv2giv:
+    name: 'giv2giv'
+    url: 'https://giv2giv.org/'
+    img: 'static/img/landing/g2g.jpg'
   jalpc:
     name: 'Jalpc'
     url: '/Jack614/jalpc_jekyll_theme'
