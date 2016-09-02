@@ -36,10 +36,10 @@ project:
     name: 'giv2giv'
     url: 'https://giv2giv.org/'
     img: 'static/img/landing/g2g.jpg'
-  jalpc:
-    name: 'Jalpc'
-    url: '/Jack614/jalpc_jekyll_theme'
-    img: 'static/img/landing/jekyll.png'
+  vistandes:
+    name: 'Vistandes'
+    url: 'http://www.vistandes.com/'
+    img: 'static/img/landing/vistandes.jpg'
   angularjs:
     name: 'Jalpc-A'
     url: '/Jack614/Jalpc-A'
