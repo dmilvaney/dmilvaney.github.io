@@ -71,6 +71,26 @@ learnings:
     author: 'Daniel Burns, Jeppe Jarnit-Bjergso, & Joshua David Stein'
     url: 'https://www.amazon.com/Food-Beer-Daniel-Burns/dp/0714871052/ref=sr_1_1?s=books&ie=UTF8&qid=1472770858&sr=1-1&keywords=food+and+beer'
     img: 'static/img/landing/food_&_beer.jpg'
+  podcast_one:
+    name: 'Seeking Wisdom'
+    author: 'David Cancel & Dave Gerhardt'
+    url: 'https://seekingwisdom.io/tagged/podcast'
+    img: 'static/img/landing/seeking_wisdom.jpg'
+  podcast_two:
+    name: 'a16z'
+    author: 'a16z'
+    url: 'http://a16z.com/podcasts/'
+    img: 'static/img/landing/a16z.jpg'
+  podcast_three:
+    name: 'Tech In Boston'
+    author: 'Dave Gerhardt'
+    url: 'https://itunes.apple.com/us/podcast/tech-in-boston/id855347254?mt=2'
+    img: 'static/img/landing/tech_in_boston.jpg'
+  podcast_four:
+    name: 'Good Beer Hunting'
+    author: 'Michael Kiser'
+    url: 'http://goodbeerhunting.com/gbh-podcast/'
+    img: 'static/img/landing/good_beer_hunting.jpg'
 
 # blog index
 index:
