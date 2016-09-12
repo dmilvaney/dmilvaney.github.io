@@ -93,16 +93,6 @@ learnings:
     url: 'http://goodbeerhunting.com/gbh-podcast/'
     img: 'static/img/landing/good_beer_hunting.jpg'
 
-# blog index
-index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
-
 # google analytics
 #ga:
   #id: UA-73784599-1
