@@ -43,6 +43,10 @@ project:
     img:
       one: 'static/img/portfolio/history_and.png'
       two: 'static/img/portfolio/history_win32.png'
+  autosave:
+    name: 'Autosave UI'
+    url: ''
+    img: ''
   giv2giv:
     name: 'giv2giv'
     url: 'https://giv2giv.org/'
