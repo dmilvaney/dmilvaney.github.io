@@ -11,6 +11,7 @@ permalink: /portfolio/
                 <h1><span data="projects.projects">Portfolio</span></h1>
             </div>
         </div>
+
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
                 <p><span data="portfolio.des">
@@ -18,16 +19,18 @@ permalink: /portfolio/
                 </span></p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1><span data="projects.microsoft">Microsoft Office</span></h1>
             </div>
             <br>
         </div>
+
         <div class="row">
             <div class="col-lg-12 wow fadeInLeft">
               <div class="text-center">
-                <h2><span data="projects.microsoft.activity">Activity Feed</span></h2>
+                <h2><span data="projects.microsoft.activity">{{ site.project.activity.name }}</span></h2>
               </div>
               <div class="team-member">
                   <p><span data="projects.microsoft.activity">When working on group projects, I often find it difficult to know whether anyone made changes while I was away. Many friends and customers feel similarly.
@@ -38,6 +41,26 @@ permalink: /portfolio/
               </div>
             </div>
           </div>
+
+          <div class="row">
+              <div class="col-lg-12 wow fadeInLeft">
+                <div class="text-center">
+                  <h2><span data="projects.microsoft.history">{{ site.project.history.name }}</span></h2>
+                </div>
+                <div class="team-member">
+                    <p><span data="projects.microsoft.history">Prior to the activity feed, I designed, spec'd, and shipped a new cross-platform, cross-device Word, Excel, and PowerPoint version history feature to increase user confidence when authoring documents.
+                      History is extremely helpful when collaborating with teammates because you have the comfort of knowing your and everyone else's changes are available in a previous version.  Go ahead and try it out on Windows desktop, Windows mobile, and Android devices.</span></p>
+                    <img src="{{ site.project.history.img.one | prepend: site.baseurl }}" class="img-responsive" alt="">
+                    <br>
+                    <img src="{{ site.project.history.img.two | prepend: site.baseurl }}" class="img-responsive" alt="">
+                    <br>
+                    <img src="{{ site.project.history.img.three | prepend: site.baseurl }}" class="img-responsive" alt="">
+                    <br>
+                    <p>Take a look at the <a href="{{ site.project.history.url }}" target="blank" style="color: #1ab394" class="navy">blog post</a> when we first brought History to Office 2016.</p>
+                </div>
+              </div>
+            </div>
+
         </div>
     </div>
     <br>
