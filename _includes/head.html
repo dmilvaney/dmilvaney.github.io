@@ -35,15 +35,7 @@
 
   <!-- Scripts -->
   <script src="{{"bower_components/jquery/dist/jquery.min.js"| prepend: site.baseurl }}"></script>
-  <script src="{{ "search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
 
-  <!-- cb-search -->
-  <script src="{{ "search/js/cb-search.js" | prepend: site.baseurl }}"></script>
-  <script>
-    $(function(){
-        $("pre").css('display','block');
-    });
-  </script>
   <!-- Mainly scripts -->
   <script src="{{"bower_components/bootstrap/dist/js/bootstrap.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/metisMenu/dist/metisMenu.min.js"| prepend: site.baseurl }}"></script>
@@ -54,29 +46,4 @@
 
   <script src="{{"bower_components/PACE/pace.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/wow/dist/wow.min.js"| prepend: site.baseurl }}"></script>
-  <!-- Custom and plugin javascript -->
-  <script src="{{"static/js/inspinia.js"| prepend: site.baseurl }}"></script>
-
-  <!-- Rickshaw -->
-  <script src="{{"bower_components/rickshaw/vendor/d3.v3.js"| prepend: site.baseurl }}"></script>
-  <script src="{{"bower_components/rickshaw/rickshaw.min.js"| prepend: site.baseurl }}"></script>
-
-
-  <!-- jPages -->
-  <script src="{{"static/js/jPages.js" | prepend: site.baseurl}}"></script>
-  <script src="{{"static/js/js.js" | prepend: site.baseurl}}"></script>
-  <script id="dsq-count-scr" src="//jalpc.disqus.com/count.js" async></script>
-  <script type="text/javascript">
-        $(function(){
-          /* initiate the plugin */
-          $("div.pag-holder").jPages({
-              containerID  : "pag-itemContainer",
-              perPage      : 5,  /* num of items per page */
-              startPage    : 1,
-              startRange   : 1,
-              midRange     : 3,
-              endRange     : 1
-          });
-      });
-  </script>
 </head>
