@@ -33,6 +33,10 @@ landing:
 
 # my projects
 project:
+  activity:
+    name: 'Activity Feed'
+    url: 'https://blogs.office.com/2016/04/26/new-to-office-365-in-april-skype-for-business-mac-preview-bringing-collaboration-to-the-forefront-in-office-and-more/'
+    img: 'static/img/portfolio/activity_feed.png'
   giv2giv:
     name: 'giv2giv'
     url: 'https://giv2giv.org/'
