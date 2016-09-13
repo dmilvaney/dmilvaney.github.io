@@ -1,0 +1,42 @@
+---
+layout: blog
+title: Portfolio
+permalink: /portfolio/
+---
+<section id="portfolio" class="project gray-section features">
+    <div class="container" id="projects">
+        <div class="row m-b-lg">
+            <div class="col-lg-12 text-center">
+                <div class="navy-line"></div>
+                <h1><span data="projects.projects">Portfolio</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                <p><span data="portfolio.des">
+                  I've enjoyed the opportunity to work on many challenging and impactful projects during my career and during college.  Here is a collection of some my favorites:
+                </span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.project.giv2giv.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><a href="{{ site.project.giv2giv.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.giv2giv.name }}</a></h4>
+                    <p><span data="projects.giv2giv">During college, I helped develop a web platform for giv2giv, a nonprofit organization, to make and monitor micro-endowment donations to charities of their choice.</span></p>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 wow fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.project.vistandes.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><a href="{{ site.project.vistandes.url }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.vistandes.name }}</a></h4>
+                    <p><span data="projects.vistandes">During college, I built an internal HR management system for Vistandes, a boutique vineyard and winery, in Mendoza, Argentina.</span></p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+</section>
