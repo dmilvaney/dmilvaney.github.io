@@ -42,8 +42,7 @@ project:
     url: 'https://blogs.office.com/2015/10/22/history-collaborate-with-confidence/'
     img:
       one: 'static/img/portfolio/history_and.png'
-      two: 'static/img/portfolio/history_uwa.png'
-      three: 'static/img/portfolio/history_win32.png'
+      two: 'static/img/portfolio/history_win32.png'
   giv2giv:
     name: 'giv2giv'
     url: 'https://giv2giv.org/'
