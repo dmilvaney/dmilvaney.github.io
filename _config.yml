@@ -52,6 +52,9 @@ project:
     name: 'giv2giv'
     url: 'https://giv2giv.org/'
     img: 'static/img/landing/g2g.jpg'
+    tech_paper_url: '../static/pdf/giv2giv_technical_paper.pdf'
+    program_ref_url: '../static/pdf/giv2giv_programming_reference.pdf'
+    user_manual_url: '../static/pdf/giv2giv_user_manual.pdf'
   vistandes:
     name: 'Vistandes'
     url: 'http://www.vistandes.com/'
