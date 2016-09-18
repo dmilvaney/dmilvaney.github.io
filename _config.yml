@@ -11,7 +11,7 @@ author:
   name: 'Doug Milvaney'
   first_name: 'Doug'
   last_name: 'Milvaney'
-  email: 'dlm2dh@gmail.com'
+  email: 'doug@dougmilvaney.com'
   github_username: 'dlm2dh'
   twitter_username: 'dmilvaney'
   linkedin_username: 'dmilvaney'
@@ -19,7 +19,6 @@ author:
   producthunt_username: 'dmilvaney'
   head_img: 'static/img/landing/doug.jpg'
   bio_short: Hi, I'm Doug and I like building awesome products.
-  bio_long: Specifically, I'm passionate about building mobile, web, and consumer-focused products with major impact.  While I'm not working on tech projects, identifying market trends, or learning more about the tech industry, you can find me <a href="https://www.goodreads.com/dmilvaney" target="blank>reading</a>, <a href="http://brooklynboulders.com/somerville/" target="blank">rock climbing</a>, biking, playing a variety of sports, or brewing beer.
 
 # landing page
 landing:
