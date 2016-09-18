@@ -19,6 +19,8 @@ author:
   producthunt_username: 'dmilvaney'
   head_img: 'static/img/landing/doug.jpg'
   bio_short: Hi, I'm Doug and I like building awesome products.
+  suggest_email: 'suggest@dougmilvaney.com'
+  mention_url: 'https://twitter.com/intent/tweet?screen_name=dmilvaney'
 
 # landing page
 landing:
