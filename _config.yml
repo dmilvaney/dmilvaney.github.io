@@ -61,6 +61,7 @@ project:
     name: 'Vistandes'
     url: 'http://www.vistandes.com/'
     img: 'static/img/landing/vistandes.jpg'
+    emp: 'static/img/portfolio/vistandes_employee_page.png'
 
 # my learnings
 learnings:
