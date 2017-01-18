@@ -96,10 +96,10 @@ learnings:
     url: 'http://a16z.com/podcasts/'
     img: 'static/img/landing/a16z.jpg'
   podcast_three:
-    name: 'Tech In Boston'
-    author: 'Dave Gerhardt'
-    url: 'https://itunes.apple.com/us/podcast/tech-in-boston/id855347254?mt=2'
-    img: 'static/img/landing/tech_in_boston.jpg'
+    name: 'StartUp Podcasat'
+    author: 'Gimlet Media'
+    url: 'https://itunes.apple.com/us/podcast/startup-podcast/id913805339?mt=2'
+    img: 'static/img/landing/startup.jpg'
   podcast_four:
     name: 'Good Beer Hunting'
     author: 'Michael Kiser'
