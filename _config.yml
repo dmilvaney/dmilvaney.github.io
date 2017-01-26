@@ -66,20 +66,20 @@ project:
 # my learnings
 learnings:
   book_one:
-    name: 'Quench Your Own Thirst: Business Lessons Learned Over a Beer or Two'
-    author: 'Jim Koch'
-    url: 'https://www.amazon.com/Quench-Your-Own-Thirst-Business-ebook/dp/B0166RX444/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1472733553&sr=1-1&keywords=quench+your+own+thirst#nav-subnav'
-    img: 'static/img/landing/quench_your_own_thirst.jpg'
+    name: 'Shoe Dog: A Memoir by the Creator of Nike'
+    author: 'Phil Knight'
+    url: 'https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1485397082&sr=1-1&keywords=shoe+dog'
+    img: 'static/img/landing/shoe_dog.jpg'
   book_two:
     name: 'Lean Analytics: Use Data to Build a Better Startup Faster '
     author: 'Alistair Croll & Benjamin Yoskovitz'
     url: 'https://www.amazon.com/Lean-Analytics-Better-Startup-Faster-ebook/dp/B00AG66LTM/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1472745154&sr=1-1&keywords=lean+analytics#nav-subnav'
     img: 'static/img/landing/lean_analytics.jpg'
   book_three:
-    name: 'The Hard Thing About Hard Things: Building a Business When There Are No Easy Answers'
-    author: 'Ben Horowitz'
-    url: 'https://www.amazon.com/s/ref=nb_sb_ss_c_1_13?url=search-alias%3Ddigital-text&field-keywords=the+hard+thing+about+hard+things&sprefix=the+hard+thin%2Cdigital-text%2C143'
-    img: 'static/img/landing/the_hard_thing_about_hard_things.jpg'
+    name: 'From Impossible to Inevitable: How Hyper-Growth Companies Create Predictable Revenue'
+    author: 'Aaron Ross & Jason Lemkin'
+    url: 'https://www.amazon.com/Impossible-Inevitable-Hyper-Growth-Companies-Predictable-ebook/dp/B01AXTFMSW/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1485396794&sr=1-1&keywords=from+impossible+to+inevitable'
+    img: 'static/img/landing/impossible_inevitable.jpg'
   book_four:
     name: 'Food & Beer'
     author: 'Daniel Burns, Jeppe Jarnit-Bjergso, & Joshua David Stein'
