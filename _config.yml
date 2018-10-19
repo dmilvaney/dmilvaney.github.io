@@ -1,6 +1,6 @@
 # Website settings
 title: "Doug Milvaney"
-description: "Hi I'm Doug and I like building awesome products."
+description: "Hi, I'm Doug and I like improving people's lives through technology."
 #keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
 baseurl: "/"
 url: ""
@@ -18,7 +18,7 @@ author:
   medium_username: 'dmilvaney'
   producthunt_username: 'dmilvaney'
   head_img: 'static/img/landing/doug.jpg'
-  bio_short: Hi, I'm Doug and I like helping to improve people's lives through technology.
+  bio_short: Hi, I'm Doug and I like improving people's lives through technology.
   bio_long: Specifically, I'm passionate about listening to and learning from people to understand what problems they have and how I can help solve them. Outside of product developemt and technology, you can find me <a href="https://www.goodreads.com/dmilvaney/" target="blank">reading</a>, <a href="https://www.coursera.org/user/ad11c403c52086f190dd5fd87941de43" target="blank">taking classes</a>, <a href="http://brooklynboulders.com/somerville/" target="blank">rock climbing</a>, biking, skiing, playing a variety of sports, or attemping to brew my own beer.
   suggest_email: 'suggest@dougmilvaney.com'
   mention_url: 'https://twitter.com/intent/tweet?screen_name=dmilvaney'
