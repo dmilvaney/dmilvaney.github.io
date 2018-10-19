@@ -28,11 +28,9 @@ landing:
   home: 'Home'
   about: 'About'
   career: 'Career'
-  skills: 'Skills'
   projects: 'Projects'
   learning: 'Learning'
   portfolio: 'Portfolio'
-  blog: 'Blog'
 
 # my projects
 project:
