@@ -18,7 +18,8 @@ author:
   medium_username: 'dmilvaney'
   producthunt_username: 'dmilvaney'
   head_img: 'static/img/landing/doug.jpg'
-  bio_short: Hi, I'm Doug and I like building awesome products.
+  bio_short: Hi, I'm Doug and I like helping to improve people's lives through technology.
+  bio_long: Specifically, I'm passionate about listening to and learning from people to understand what problems they have and how I can help solve them. Outside of product developemt and technology, you can find me <a href="https://www.goodreads.com/dmilvaney/" target="blank">reading</a>, <a href="https://www.coursera.org/user/ad11c403c52086f190dd5fd87941de43" target="blank">taking classes</a>, <a href="http://brooklynboulders.com/somerville/" target="blank">rock climbing</a>, biking, skiing, playing a variety of sports, or attemping to brew my own beer.
   suggest_email: 'suggest@dougmilvaney.com'
   mention_url: 'https://twitter.com/intent/tweet?screen_name=dmilvaney'
 
@@ -105,7 +106,11 @@ learnings:
     author: 'Michael Kiser'
     url: 'http://goodbeerhunting.com/gbh-podcast/'
     img: 'static/img/landing/good_beer_hunting.jpg'
-
+  class_one:
+    name: 'Machine Learning'
+    organization: 'Stanford University'
+    url: 'https://www.coursera.org/account/accomplishments/certificate/UDAS3WQ39GZ6'
+    img: ''
 # recently read & upcoming books
 books:
   read:
