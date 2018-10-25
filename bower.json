@@ -1,10 +1,10 @@
 {
-  "name": "jalpc_jekyll_theme",
-  "homepage": "http://www.jack003.com",
+  "name": "Doug Milvaney's webpage",
+  "homepage": "http://dougmilvaney.com",
   "authors": [
-    "Jack <407613594@qq.com>"
+    "Doug Milvaney"
   ],
-  "description": "For blog use.",
+  "description": "For personal use.",
   "main": "",
   "license": "MIT",
   "private": true,
