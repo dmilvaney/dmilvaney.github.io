@@ -6482,7 +6482,7 @@ body.landing-page {
   transition: all 0.3s ease-in-out 0s;
 }
 .landing-page .navbar-default .nav li a {
-  color: #fff;
+  color: #676a6c;
   font-family: 'Open Sans', helvetica, arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -6496,21 +6496,21 @@ body.landing-page {
 .landing-page .navbar-default .navbar-nav > .active > a,
 .landing-page .navbar-default .navbar-nav > .active > a:hover {
   background: transparent;
-  color: #fff;
+  color: #3385FF;
   border-top: 6px solid #3385FF;
 }
 .landing-page .navbar-default .navbar-nav > li > a:hover,
 .landing-page .navbar-default .navbar-nav > li > a:focus {
-  color: #3385FF;
+  color: #676a6c;
   background: inherit;
 }
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
-  color: #fff;
+  color: #676a6c;
 }
 .landing-page .navbar-default .navbar-nav > .active > a:focus {
   background: transparent;
-  color: #ffffff;
+  color: #676a6c;
 }
 .landing-page .navbar-default.navbar-scroll .navbar-nav > .active > a:focus {
   background: transparent;
