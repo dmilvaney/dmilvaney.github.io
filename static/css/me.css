@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.container {
+  padding: 15px 15px 15px 15px;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 0px;
