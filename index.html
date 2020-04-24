@@ -216,126 +216,118 @@
       </div>
     </section>
 
-    <section id="learning" class="project gray-section features">
-        <div class="container" id="learnings">
-            <div class="row m-b-lg">
-                <div class="col-lg-12 text-center">
-                    <div class="navy-line"></div>
-                    <h1><span data="projects.my_projects">What I'm Learning</span></h1>
-                </div>
+    <section id="learning">
+      <div class="container" id="learning">
+        <div class="row">
+          <div class="col-lg text-center">
+            <h1><span data="projects.my_projects">What I'm Learning</span></h1>
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-lg text-center">
+              <p><span data="learning.des">
+                I love learning and I'm always looking for ways to improve myself both personally and professionally. Here are some books and podcasts I'm currently hooked on and find entertaining and valuable.  If you have suggestions for other awesome content I should take a look at, <a href="mailto:{{ site.author.suggest_email }}" target="blank">please let me know</a>!
+              </span></p>
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                    <p><span data="learning.des">
-                      I love learning and I'm always looking for ways to improve myself both personally and professionally. Here are some books and podcasts I'm currently hooked on and find entertaining and valuable.  If you have suggestions for other awesome content I should take a look at, <a href="mailto:{{ site.author.suggest_email }}" target="blank">please let me know</a>!
-                    </span></p>
-                </div>
+          </div>
+
+          <div id="books" class="row">
+            <div class="col-lg text-center">
+              <h2><span data="learnings.books">Books</span></h2>
             </div>
-
-            <div id="books" class="row">
-                <div class="col-lg-12 text-center">
-                    <h2><span data="learnings.books">Books</span></h2>
-                </div>
-                <br>
+          </div>
+          <div class="row">
+            <div class="col-sm text-center">
+              <img src="static/img/landing/shoe_dog.jpg" class="img-responsive img-book-medium" alt="">
+              <h4><a href="https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1485397082&sr=1-1&keywords=shoe+dog" target="blank">Shoe Dog: A Memoir by the Creator of Nike</a></h4>
+              <h5>By Phil Knight</h5>
+              <p><span data="learnings.book_one"><b>Pro Tip Learned:</b> When you believe in your team's mission and are willing to persevere against all odds, you can be successful.  Just be prepared for the long haul.</span></p>
             </div>
-
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                    <div class="team-member">
-                        <img src="{{ site.learnings.book_one.img }}" class="img-responsive img-book-medium" alt="">
-                        <h4><a href="{{ site.learnings.book_one.url }}" target="blank" class="navy">{{ site.learnings.book_one.name }}</a></h4>
-                        <h5>By {{ site.learnings.book_one.author }}</h5>
-                        <p><span data="learnings.book_one"><b>Pro Tip Learned:</b> When you believe in your team's mission and are willing to persevere against all odds, you can be successful.  Just be prepared for the long haul.</span></p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <div class="team-member">
-                        <img src="{{ site.learnings.book_two.img }}" class="img-responsive img-book-medium" alt="">
-                        <h4><a href="{{ site.learnings.book_two.url }}" target="blank" class="navy">{{ site.learnings.book_two.name }}</a></h4>
-                        <h5>By {{ site.learnings.book_two.author }}</h5>
-                        <p><span data="learnings.book_two"><b>Pro Tip Learned:</b> You won't know what metrics to focus on until you can describe your business model as simply as a lemonade stand's.</span></p>
-                    </div>
-                </div>
+            <div class="col-sm text-center">
+              <img src="static/img/landing/measure_what_matters.jpg" class="img-responsive img-book-medium" alt="">
+              <h4><a href="https://www.amazon.com/Measure-What-Matters/dp/B07BMJ4L1S/ref=sr_1_1?dchild=1&keywords=measure+what+matters&qid=1587751628&sr=8-1" target="blank">Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs</a></h4>
+              <h5>By John Doerr</h5>
+              <p><span data="learnings.book_one"><b>Pro Tip Learned:</b> Aligning around customer-focused objectives with clear, measurable, motivating results takes the guesswork out of planning and prioritizing.</span></p>
             </div>
+          </div>
 
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                    <div class="team-member">
-                        <img src="{{ site.learnings.book_three.img }}" class="img-responsive img-book-medium" alt="">
-                        <h4><a href="{{ site.learnings.book_three.url }}" target="blank" class="navy">{{ site.learnings.book_three.name }}</a></h4>
-                        <h5>By {{ site.learnings.book_three.author }}</h5>
-                        <p><span data="learnings.book_three">In the process of formulating my pro tip.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6 wow fadeInRight">
-                        <div class="team-member">
-                            <img src="{{ site.learnings.book_four.img }}" class="img-responsive img-book-medium" alt="">
-                            <h4><a href="{{ site.learnings.book_four.url }}" target="blank" class="navy">{{ site.learnings.book_four.name }}</a></h4>
-                            <h5>By {{ site.learnings.book_four.author }}</h5>
-                            <p><span data="learnings.book_four"><b>Pro Tip Learned:</b> Take pride in your work and always be on the lookout to rethink how customer's experience your product.</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                    <p><span data="learning.books">
-                      <a href="https://www.goodreads.com/dmilvaney" target="blank">Check out</a> other books I've recently read and those up next.
-                    </span></p>
-                </div>
-            </div>
-            <br>
-
-            <div id="podcasts" class="row">
-                <div class="col-lg-12 text-center">
-                    <h2><span data="learnings.podcasts">Podcasts</span></h2>
-                </div>
-                <br>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
-                    <div class="team-member">
-                        <img src="{{ site.learnings.podcast_one.img }}" class="img-responsive img-podcast-medium" alt="">
-                        <h4><a href="{{ site.learnings.podcast_one.url }}" target="blank" class="navy">{{ site.learnings.podcast_one.name }}</a></h4>
-                        <h5>By {{ site.learnings.podcast_one.author }}</h5>
-                        <p><span data="learnings.podcast_one">Seeking Wisdom is the most useful, engaging, and motivating podcast I've listened to.  Too many learnings to count.  <b>Pro Tip Learned:</b> You don't read to memorize.  You read to unlock what you already know.</span></p>
-                    </div>
-                </div>
-                <div class="col-sm-6 wow fadeInRight">
-                    <div class="team-member">
-                        <img src="{{ site.learnings.podcast_two.img }}" class="img-responsive img-podcast-medium" alt="">
-                        <h4><a href="{{ site.learnings.podcast_two.url }}" target="blank" class="navy">{{ site.learnings.podcast_two.name }}</a></h4>
-                        <h5>By {{ site.learnings.podcast_two.author }}</h5>
-                        <p><span data="learnings.podcast_two"><b>Pro Tip Learned:</b> Listening to smart people talk about topics you're unfamiliar with sparks ideas and creative solutions to the problems you're trying to solve.</span></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
+          <div class="row">
               <div class="col-sm-6 wow fadeInLeft">
                   <div class="team-member">
-                      <img src="{{ site.learnings.podcast_three.img }}" class="img-responsive img-podcast-medium" alt="">
-                      <h4><a href="{{ site.learnings.podcast_three.url }}" target="blank" class="navy">{{ site.learnings.podcast_three.name }}</a></h4>
-                      <h5>By {{ site.learnings.podcast_three.author }}</h5>
-                      <p><span data="learnings.podcast_three"><b>Pro Tip Learned:</b> Starting a company is hard work, but you're not the only one going through it. Just keep grinding.</span></p>
+                      <img src="{{ site.learnings.book_three.img }}" class="img-responsive img-book-medium" alt="">
+                      <h4><a href="{{ site.learnings.book_three.url }}" target="blank" class="navy">{{ site.learnings.book_three.name }}</a></h4>
+                      <h5>By {{ site.learnings.book_three.author }}</h5>
+                      <p><span data="learnings.book_three">In the process of formulating my pro tip.</p>
                   </div>
               </div>
 
-              <div class="col-sm-6 wow fadeInRight">
-                  <div class="team-member">
-                      <img src="{{ site.learnings.podcast_four.img }}" class="img-responsive img-podcast-medium" alt="">
-                      <h4><a href="{{ site.learnings.podcast_four.url }}" target="blank" class="navy">{{ site.learnings.podcast_four.name }}</a></h4>
-                      <h5>By {{ site.learnings.podcast_four.author }}</h5>
-                      <p><span data="learnings.podcast_four"><b>Pro Tip Learned:</b> Seeing how breweries create great products, develop a loyal fanbase, and iterate based on feedback, inspires my own approach to work.</span></p>
+              <div class="row">
+                  <div class="col-sm-6 wow fadeInRight">
+                      <div class="team-member">
+                          <img src="{{ site.learnings.book_four.img }}" class="img-responsive img-book-medium" alt="">
+                          <h4><a href="{{ site.learnings.book_four.url }}" target="blank" class="navy">{{ site.learnings.book_four.name }}</a></h4>
+                          <h5>By {{ site.learnings.book_four.author }}</h5>
+                          <p><span data="learnings.book_four"><b>Pro Tip Learned:</b> Take pride in your work and always be on the lookout to rethink how customer's experience your product.</span></p>
+                      </div>
                   </div>
               </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
+                  <p><span data="learning.books">
+                    <a href="https://www.goodreads.com/dmilvaney" target="blank">Check out</a> other books I've recently read and those up next.
+                  </span></p>
+              </div>
+          </div>
+          <br>
+
+          <div id="podcasts" class="row">
+              <div class="col-lg-12 text-center">
+                  <h2><span data="learnings.podcasts">Podcasts</span></h2>
+              </div>
+              <br>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-6 wow fadeInLeft">
+                  <div class="team-member">
+                      <img src="{{ site.learnings.podcast_one.img }}" class="img-responsive img-podcast-medium" alt="">
+                      <h4><a href="{{ site.learnings.podcast_one.url }}" target="blank" class="navy">{{ site.learnings.podcast_one.name }}</a></h4>
+                      <h5>By {{ site.learnings.podcast_one.author }}</h5>
+                      <p><span data="learnings.podcast_one">Seeking Wisdom is the most useful, engaging, and motivating podcast I've listened to.  Too many learnings to count.  <b>Pro Tip Learned:</b> You don't read to memorize.  You read to unlock what you already know.</span></p>
+                  </div>
+              </div>
+              <div class="col-sm-6 wow fadeInRight">
+                  <div class="team-member">
+                      <img src="{{ site.learnings.podcast_two.img }}" class="img-responsive img-podcast-medium" alt="">
+                      <h4><a href="{{ site.learnings.podcast_two.url }}" target="blank" class="navy">{{ site.learnings.podcast_two.name }}</a></h4>
+                      <h5>By {{ site.learnings.podcast_two.author }}</h5>
+                      <p><span data="learnings.podcast_two"><b>Pro Tip Learned:</b> Listening to smart people talk about topics you're unfamiliar with sparks ideas and creative solutions to the problems you're trying to solve.</span></p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6 wow fadeInLeft">
+                <div class="team-member">
+                    <img src="{{ site.learnings.podcast_three.img }}" class="img-responsive img-podcast-medium" alt="">
+                    <h4><a href="{{ site.learnings.podcast_three.url }}" target="blank" class="navy">{{ site.learnings.podcast_three.name }}</a></h4>
+                    <h5>By {{ site.learnings.podcast_three.author }}</h5>
+                    <p><span data="learnings.podcast_three"><b>Pro Tip Learned:</b> Starting a company is hard work, but you're not the only one going through it. Just keep grinding.</span></p>
+                </div>
             </div>
-        <br>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <div class="team-member">
+                    <img src="{{ site.learnings.podcast_four.img }}" class="img-responsive img-podcast-medium" alt="">
+                    <h4><a href="{{ site.learnings.podcast_four.url }}" target="blank" class="navy">{{ site.learnings.podcast_four.name }}</a></h4>
+                    <h5>By {{ site.learnings.podcast_four.author }}</h5>
+                    <p><span data="learnings.podcast_four"><b>Pro Tip Learned:</b> Seeing how breweries create great products, develop a loyal fanbase, and iterate based on feedback, inspires my own approach to work.</span></p>
+                </div>
+            </div>
+          </div>
+      </div>
     </section>
 
     <div class="container">
