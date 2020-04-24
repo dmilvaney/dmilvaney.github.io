@@ -44,10 +44,6 @@
   top: 0;
 }
 
-.header-image-text {
-  color: #ffffff;
-}
-
 .timeline-outline {
   position: relative;
   padding: 0;
@@ -92,6 +88,18 @@
 /* Colors */
 body {
   background-color: #ffffff;
+}
+
+body a {
+  color: rgba(80, 126, 96, 0.8);
+}
+
+body a:hover {
+  color: rgba(80, 126, 96, 1.0);
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgba(37, 45, 40, 1.0);
 }
 
 .bg-light-pss {
@@ -155,6 +163,10 @@ button.bg-light-pss:focus {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+.header-image-text, .header-image-text h1 {
+  color: #ffffff;
+}
+
 .carousel img {
   opacity: 1.0;
   filter: brightness(75%);
@@ -162,6 +174,10 @@ button.bg-light-pss:focus {
 
 .timeline-outline::before {
   background: #1A1D32;
+}
+
+.timeline-outline small {
+  color: rgba(80, 126, 96, 1.0);
 }
 
 .timeline-icon-bg {
