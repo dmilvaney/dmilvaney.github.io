@@ -48,12 +48,31 @@
   color: #ffffff;
 }
 
-.footer {
-  font-size: small;
+.timeline-outline {
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.footer .copyright {
-  font-size: x-small;
+.timeline-outline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+}
+
+@media only screen and (min-width: 1170px) {
+  .timeline-outline.center-orientation {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  .timeline-outline.center-orientation:before {
+    left: 50%;
+    margin-left: -2px;
+  }
 }
 
 /* Colors */
@@ -125,6 +144,10 @@ button.bg-light-pss:focus {
 .carousel img {
   opacity: 1.0;
   filter: brightness(75%);
+}
+
+.timeline-outline::before {
+  background: #1A1D32;
 }
 
 .timeline-icon-bg {
