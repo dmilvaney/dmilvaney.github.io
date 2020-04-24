@@ -7,6 +7,34 @@ p, a {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 2.369em;
+}
+
+h3, .timeline-outline h2 {
+  font-size: 1.777em;
+}
+
+h4, p, .timeline-outline p {
+  font-size: 1.333em;
+}
+
+h5{
+  font-size: 1em;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.777em;
+}
+
+.navbar .nav-link {
+  font-size: 1.333em;
+}
+
 /* Padding, Spacing, Alignment */
 .body {
   position: relative;
