@@ -57,6 +57,10 @@
 }
 
 /* Colors */
+body {
+  background-color: #ffffff;
+}
+
 .bg-light-pss {
   background-color: transparent !important;
   transition: background-color 200ms linear;
