@@ -75,6 +75,12 @@
   }
 }
 
+.img-small {
+  height: 88px;
+  width: 88px;
+  padding: 5px 5px 5px 5px;
+}
+
 /* Colors */
 body {
   background-color: #ffffff;
