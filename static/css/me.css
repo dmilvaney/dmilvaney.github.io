@@ -85,6 +85,10 @@
   width: 152px;
 }
 
+.img-podcast-medium {
+  width: 250px;
+}
+
 /* Colors */
 body {
   background-color: #ffffff;
