@@ -59,21 +59,10 @@ h5{
   transform: translate(-50%, -50%);
 }
 
-.featured-items, .footer {
-  padding: 15px 15px 15px 15px;
-}
-
-.featured-items .featured-item-image {
-  height: 250px;
-  width: 250px;
-}
-
-.item-text {
-  padding: 15px 15px 15px 15px;
-}
-
-.footer .nav-link-list {
-  line-height: 0.5em;
+.offset-anchor {
+  display: block;
+  position: relative;
+  top: 50px;
 }
 
 .carousel {
