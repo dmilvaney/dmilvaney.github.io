@@ -70,6 +70,13 @@ h5{
   top: 0;
 }
 
+.link-icon a {
+  padding: 20px 12px 20px 20px;
+  height: 28px;
+  width: 28px;
+  display: inline;
+}
+
 .timeline-outline {
   position: relative;
   padding: 0;
@@ -109,6 +116,10 @@ h5{
 
 .img-podcast-medium {
   width: 250px;
+}
+
+.footer-bar {
+  padding: 35px 0px 0px 0px;
 }
 
 /* Colors */
