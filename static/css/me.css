@@ -206,7 +206,7 @@ button.bg-dark:focus {
 
 .carousel img {
   opacity: 1.0;
-  filter: brightness(75%);
+  filter: brightness(85%);
 }
 
 .timeline-outline::before {
