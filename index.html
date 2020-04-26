@@ -192,12 +192,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm text-center">
+          <div class="col-sm text-center animate-left">
             <img src="static/img/landing/g2g.jpg" class="img-responsive img-circle img-small" alt="">
             <h4><a href="https://giv2giv.org/" target="blank">giv2giv</a></h4>
             <p><span data="projects.giv2giv">During college, I helped develop a web platform for giv2giv, a nonprofit organization, to make and monitor micro-endowment donations to charities of their choice.<!--  <a href="/portfolio#giv2giv" target="blank" class="navy">Learn more</a>.</span></p>-->
           </div>
-          <div class="col-sm text-center">
+          <div class="col-sm text-center animate-right">
             <img src="static/img/landing/vistandes.jpg" class="img-responsive img-circle img-small" alt="">
             <h4><a href="http://www.vistandes.com/" target="blank" class="navy">Vistandes</a></h4>
             <p><span data="projects.vistandes">During college, I built an internal HR management system for Vistandes, a boutique vineyard and winery, in Mendoza, Argentina.<!--  <a href="/portfolio#vistandes" target="blank" class="navy">Learn more</a>.</span></p>-->
@@ -330,17 +330,14 @@
         return ((elementBottom <= viewBottom) && (elementTop >= viewTop));
       }
 
-      function checkAnimations() {
-        // List elements to add animations to
-        var $sayHiButton = $(".standalone-btn");
-
+      // Check whether element has already been animated
+      function shouldAnimate(element) {
         // Don't start animation if it's already started
-        if ($sayHiButton.hasClass('animated')) {
-          return;
+        if ($(element).hasClass('animated')) {
+          return false;
         }
-
-        if (isElementInView($sayHiButton)) {
-          $sayHiButton.addClass("animated", "bounceInUp");
+        else {
+          return isElementInView(element);
         }
       }
 
@@ -349,7 +346,15 @@
         $("nav").toggleClass("scrolled", $(this).scrollTop() > $("nav").height());
 
         // Add in animations
-        $(".standalone-btn").toggleClass("animated bounceInUp delay-1s", isElementInView(".standalone-btn"));
+        if (shouldAnimate(".standalone-btn")) {
+          $(".standalone-btn").addClass("animated bounceInUp delay-1s");
+        }
+        if (shouldAnimate(".animate-left")) {
+          $(".animate-left").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate(".animate-right")) {
+          $(".animate-right").addClass("animated slideInRight");
+        }
       });
     </script>
   </body>
