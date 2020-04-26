@@ -316,10 +316,40 @@
       </div>
     </section>
 
-    <!-- Change navbar color on scroll -->
+    <!-- Change navbar color and add animations on scroll -->
     <script>
+      function isElementInView(element) {
+        // Get viewport
+        var viewTop = $(this).scrollTop();
+        var viewBottom = viewTop + $(this).height();
+
+        // Get element dimensions
+        var elementTop = $(element).offset().top;
+        var elementBottom = elementTop + $(element).height();
+
+        return ((elementBottom <= viewBottom) && (elementTop >= viewTop));
+      }
+
+      function checkAnimations() {
+        // List elements to add animations to
+        var $sayHiButton = $(".standalone-btn");
+
+        // Don't start animation if it's already started
+        if ($sayHiButton.hasClass('animated')) {
+          return;
+        }
+
+        if (isElementInView($sayHiButton)) {
+          $sayHiButton.addClass("animated", "bounceInUp");
+        }
+      }
+
       $(window).scroll(function () {
+        // Change navbar color on scroll
         $("nav").toggleClass("scrolled", $(this).scrollTop() > $("nav").height());
+
+        // Add in animations
+        $(".standalone-btn").toggleClass("animated bounceInUp delay-1s", isElementInView(".standalone-btn"));
       });
     </script>
   </body>
