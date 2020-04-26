@@ -77,6 +77,16 @@ h5{
   display: inline;
 }
 
+.standalone-btn {
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
 .timeline-outline {
   position: relative;
   padding: 0;
@@ -131,7 +141,7 @@ body a {
   color: rgba(80, 126, 96, 0.8);
 }
 
-body a:hover {
+body a:hover, body a:focus {
   color: rgba(80, 126, 96, 1.0);
 }
 
@@ -207,6 +217,19 @@ button.bg-dark:focus {
 .carousel img {
   opacity: 1.0;
   filter: brightness(85%);
+}
+
+.standalone-btn {
+  background-color: #ffffff;
+  border: 1px solid rgba(80, 126, 96, 0.8);
+  color: inherit;
+  transition: all .5s;
+}
+
+.standalone-btn:hover, .standalone-btn:focus {
+  background-color: rgba(80, 126, 96, 0.8);
+  border: 1px solid rgba(80, 126, 96, 1.0);
+  color: #ffffff;
 }
 
 .timeline-outline::before {
