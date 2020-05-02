@@ -114,7 +114,7 @@
               <div class="vertical-timeline-block">
                 <div class="vertical-timeline-icon timeline-icon-bg">
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-pow" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.pow">Protect Our Winters ❄️</span></h2>
                   <p><span data="career.pow_des">Ready to turn my passion into purpose, I now volunteer with <a href="https://protectourwinters.org/" target="blank">Protect Our Winters</a> (POW) to help speak up about climate change and advocate for renewable energy and reducing carbon emissions.</span></p>
                   <span class="vertical-date"><span data="career.pow_date"> April 2020 - Present </span><br/> <small><span data="career.pow_job">POW Volunteer</span></small> </span>
@@ -125,7 +125,7 @@
                 <div class="vertical-timeline-icon timeline-icon-bg">
                   <i class="fa fa-plus-square"></i><!-- TODO: update image -->
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-onepercent" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.onepercent">1% for the Planet 🌎</span></h2>
                   <p><span data="career.oneperfect_des">After years of observing the impact of climate change on my favorite sports and acutely seeing its impact on the forests, glaciers, and wildlife while visiting the Canadian Rockies, I became a member of <a href="https://www.onepercentfortheplanet.org/" target="blankl">1% for the Planet</a> to donate to non-profits who are making positive impact on our planet.</span></p>
                   <span class="vertical-date"><span data="career.onepercent_date"> September 2019 - Present </span><br/> <small><span data="career.onepercent_job">Individual Member</span></small> </span>
@@ -136,7 +136,7 @@
                 <div class="vertical-timeline-icon timeline-icon-bg">
                   <i class="fa fa-plus-square"></i><!-- TODO: update image -->
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-microsoft" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.microsoft">Microsoft Office 💻</span></h2>
                   <p><span data="career.microsft_des">I currently work in <a href="https://office.com" target="blank">Microsoft Office</a> designing and developing collaboration and Artifical Intelligence and Machine Learning tools to help people work together better.<!--  <a href="/portfolio#microsoft" target="blank" class="navy">Take a look</a>.--></span></p>
                   <span class="vertical-date"><span data="career.microsoft_date"> August 2013 - Present </span><br/> <small><span data="career.microsoft_job">Senior Program Manager</span></small> </span>
@@ -147,7 +147,7 @@
                 <div class="vertical-timeline-icon timeline-icon-bg">
                   <i class="fa fa-book"></i>
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-college" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.college">Graduation 🎓</span></h2>
                   <p><span data="career.college_des">In May 2013, I graduated from the <a href="https://www.virginia.edu/" target="blank">University of Virginia</a> with a Computer Science major and Engineering Business minor. Feel free to read my <a href="/static/pdf/Doug Milvaney Thesis Portfolio.pdf" target="blank">Thesis Portfolio</a>, which focuses on social entrepreneurship through two lenses: (1) a technical report on developing a charitable giving platform for non-profits and (2) a case study of Elon Musk's socially-minded business ventures.</span></p>
                   <span class="vertical-date"><span data="career.college_date"> August 2009 - May 2013 </span><br/> <small><span data="career.college_job">Student</span></small> </span>
@@ -158,7 +158,7 @@
                 <div class="vertical-timeline-icon timeline-icon-bg">
                   <i class="fa fa-plus-square"></i>
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-microsoft_intern" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.microsoft_intern">Microsoft Business Solutions 🗂</span></h2>
                   <p><span data="career.microsoft_intern_des">During the summer of 2012, I designed, managed, and developed a cloud-based search feature for Microsoft Dynamics AX.</span></p>
                   <span class="vertical-date"><span data="career.microsoft_intern_date"> May 2012 - August 2012 </span><br/> <small><span data="career.microsoft_intern_job">Program Manager Intern</span></small> </span>
@@ -169,7 +169,7 @@
                 <div class="vertical-timeline-icon timeline-icon-bg">
                   <i class="fa fa-plus-square"></i>
                 </div>
-                <div class="vertical-timeline-content animate-timeline">
+                <div id="timeline-ibm_intern" class="vertical-timeline-content animate-timeline">
                   <h2><span data="career.ibm_intern">IBM Systems & Technology Group 🌊</span></h2>
                   <p><span data="career.ibm_intern_des">I co-designed and implemented a visualization tool for an IBM Smarter Water system that retrieves and monitors hydrological and meteorological data. Check out our <a href="/static/pdf/smarter_water_sensor_visualization_architecture.pdf" target="blank">architecture whitepaper</a>.</span></p>
                   <span class="vertical-date"><span data="career.ibm_intern_date"> June 2011 - May 2012 </span><br/> <small><span data="career.ibm_intern_job">Software Development Intern</span></small> </span>
@@ -368,8 +368,25 @@
         if (shouldAnimate(".animate-right")) {
           $(".animate-right").addClass("animated slideInRight");
         }
-        if (shouldAnimate(".animate-timeline")) {
-          $(".animate-timeline").addClass("animated fadeInUp")
+
+        // Amimate elements of the timeline when they enter view
+        if (shouldAnimate("#timeline-pow")) {
+          $("#timeline-pow").addClass("animated fadeInUp")
+        }
+        if (shouldAnimate("#timeline-onepercent")) {
+          $("#timeline-onepercent").addClass("animated fadeInUp")
+        }
+        if (shouldAnimate("#timeline-microsoft")) {
+          $("#timeline-microsoft").addClass("animated fadeInUp")
+        }
+        if (shouldAnimate("#timeline-college")) {
+          $("#timeline-college").addClass("animated fadeInUp")
+        }
+        if (shouldAnimate("#timeline-microsoft_intern")) {
+          $("#timeline-microsoft_intern").addClass("animated fadeInUp")
+        }
+        if (shouldAnimate("#timeline-ibm_intern")) {
+          $("#timeline-ibm_intern").addClass("animated fadeInUp")
         }
       });
     </script>
