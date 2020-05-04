@@ -87,7 +87,7 @@
           <div class="col-sm text-center">
             <h1><b><span data="about.about">About Me</span></b></h1>
             <!-- avatar -->
-            <img src="static/img/landing/doug.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
+            <img id="profile-picture" src="static/img/landing/doug.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
             <br><br>
             <h3>Hi, I'm Doug and I like finding creative solutions for tough problems.</h3>
             <p><span data="about_me.des">
@@ -192,12 +192,12 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm text-center animate-left">
+          <div id="proj-one" class="col-sm text-center animate-left">
             <img src="static/img/landing/g2g.jpg" class="img-responsive img-circle img-small" alt="">
             <h4><a href="https://giv2giv.org/" target="blank">giv2giv</a></h4>
             <p><span data="projects.giv2giv">During college, I helped develop a web platform for giv2giv, a nonprofit organization, to make and monitor micro-endowment donations to charities of their choice.<!--  <a href="/portfolio#giv2giv" target="blank" class="navy">Learn more</a>.</span></p>-->
           </div>
-          <div class="col-sm text-center animate-right">
+          <div id="proj-two" class="col-sm text-center animate-right">
             <img src="static/img/landing/vistandes.jpg" class="img-responsive img-circle img-small" alt="">
             <h4><a href="http://www.vistandes.com/" target="blank" class="navy">Vistandes</a></h4>
             <p><span data="projects.vistandes">During college, I built an internal HR management system for Vistandes, a boutique vineyard and winery, in Mendoza, Argentina.<!--  <a href="/portfolio#vistandes" target="blank" class="navy">Learn more</a>.</span></p>-->
@@ -227,13 +227,13 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-sm text-center">
+            <div id="book-one" class="col-sm text-center">
               <img src="static/img/landing/shoe_dog.jpg" class="img-responsive img-book-medium" alt="Shoe Dog book cover">
               <h4><a href="https://www.amazon.com/Shoe-Dog-Memoir-Creator-Nike-ebook/dp/B0176M1A44/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1485397082&sr=1-1&keywords=shoe+dog" target="blank">Shoe Dog: A Memoir by the Creator of Nike</a></h4>
               <h5>By Phil Knight</h5>
               <p><span data="learnings.book_one"><b>Pro Tip Learned:</b> When you believe in your team's mission and are willing to persevere against all odds, you can be successful.  Just be prepared for the long haul.</span></p>
             </div>
-            <div class="col-sm text-center">
+            <div id="book-two" class="col-sm text-center">
               <img src="static/img/landing/measure_what_matters.jpg" class="img-responsive img-book-medium" alt="Measure What Matters book cover">
               <h4><a href="https://www.amazon.com/Measure-What-Matters/dp/B07BMJ4L1S/ref=sr_1_1?dchild=1&keywords=measure+what+matters&qid=1587751628&sr=8-1" target="blank">Measure What Matters: How Google, Bono, and the Gates Foundation Rock the World with OKRs</a></h4>
               <h5>By John Doerr</h5>
@@ -242,13 +242,13 @@
           </div>
 
           <div class="row">
-            <div class="col-sm text-center">
+            <div id="book-three" class="col-sm text-center">
               <img src="static/img/landing/eiger_dreams.jpeg" class="img-responsive img-book-medium" alt="Eiger Dreams book cover">
               <h4><a href="https://www.amazon.com/Eiger-Dreams-Ventures-Among-Mountains-ebook/dp/B00368CAVU/ref=sr_1_1?crid=3G41WU7X0IVY3&keywords=eiger+dreams&qid=1587755028&sprefix=eiger+d%2Caudible%2C159&sr=8-1" target="blank">Eiger Dreams: Ventures Among Men and Mountains</a></h4>
               <h5>By John Krakauer</h5>
               <p><span data="learnings.book_three"><b>Pro Tip Learned:</b> Both Krakauer's Eiger Dreams and Classic Krakauer books are inspiring, informative, and give you a greater respect for nature.</p>
             </div>
-            <div class="col-sm text-center">
+            <div id="book-four" class="col-sm text-center">
               <img src="static/img/landing/in_the_mountains.jpeg" class="img-responsive img-book-medium" alt="In the Mountains book cover">
               <h4><a href="https://www.amazon.com/Mountains-Ned-Morgan/dp/1783253223/ref=sr_1_1?dchild=1&keywords=in+the+mountains+ned+morgan&qid=1587755269&sr=8-1" target="blank">In the Mountains: The Health and Wellbeing Benefits of Spending Time at Altitude</a></h4>
               <h5>By Ned Morgan</h5>
@@ -274,13 +274,13 @@
           </div>
 
           <div class="row">
-            <div class="col-sm text-center">
+            <div id="podcast-one" class="col-sm text-center">
               <img src="static/img/landing/start_here.png" class="img-responsive img-podcast-medium" alt="Start Here podcast artwork">
               <h4><a href="https://vcet.co/podcast/" target="blank">Start Here</a></h4>
               <h5>By Vermont Center for Emerging Technologies</h5>
               <p><span data="learnings.podcast_one">I love learning about a variety of startups and their origin stories.</span></p>
             </div>
-            <div class="col-sm text-center">
+            <div id="podcast-two" class="col-sm text-center">
               <img src="static/img/landing/psa.png" class="img-responsive img-podcast-medium" alt="Planet Service Announcement podcast artwork">
               <h4><a href="https://www.onepercentfortheplanet.org/psa" target="blank">Planet Service Annoucement</a></h4>
               <h5>By 1% for the Planet</h5>
@@ -289,14 +289,13 @@
           </div>
 
           <div class="row">
-            <div class="col-sm text-center">
+            <div id="podcast-three" class="col-sm text-center">
               <img src="static/img/landing/wild_ideas_worth_living.png" class="img-responsive img-podcast-medium" alt="Wild Ideas Worth Living podcast artwork">
               <h4><a href="https://www.rei.com/blog/podcasts/wild-ideas-worth-living" target="blank" >Wild Ideas Worth Living</a></h4>
               <h5>By REI</h5>
               <p><span data="learnings.podcast_three">Another awesome, outdoor-focused podcast with inspirational speakers.</span></p>
             </div>
-
-            <div class="col-sm text-center">
+            <div id="podcast-four" class="col-sm text-center">
               <img src="static/img/landing/good_beer_hunting.png" class="img-responsive img-podcast-medium" alt="Good Beer Hunting podcast artwork">
               <h4><a href="http://goodbeerhunting.com/gbh-podcast/" target="blank">Good Beer Hunting</a></h4>
               <h5>By Good Beer Hunting</h5>
@@ -318,6 +317,7 @@
 
     <!-- Change navbar color and add animations on scroll -->
     <script>
+
       function isElementInView(element) {
         // Get viewport
         var viewTop = $(this).scrollTop();
@@ -358,15 +358,12 @@
         // Change navbar color on scroll
         $("nav").toggleClass("scrolled", $(this).scrollTop() > $("nav").height());
 
-        // Add in animations
+        // Add in animations to about me
+        if (shouldAnimate("#profile-picture")) {
+          $("#profile-picture").addClass("animated fadeIn");
+        }
         if (shouldAnimate(".standalone-btn")) {
-          $(".standalone-btn").addClass("animated bounceInUp delay-1s");
-        }
-        if (shouldAnimate(".animate-left")) {
-          $(".animate-left").addClass("animated slideInLeft");
-        }
-        if (shouldAnimate(".animate-right")) {
-          $(".animate-right").addClass("animated slideInRight");
+          $(".standalone-btn").addClass("animated zoomIn");
         }
 
         // Amimate elements of the timeline when they enter view
@@ -387,6 +384,38 @@
         }
         if (shouldAnimate("#timeline-ibm_intern")) {
           $("#timeline-ibm_intern").addClass("animated fadeInUp")
+        }
+
+        // Animate projects, books, Podcasts
+        if (shouldAnimate("#proj-one")) {
+          $("#proj-one").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate("#proj-two")) {
+          $("#proj-two").addClass("animated slideInRight");
+        }
+        if (shouldAnimate("#book-one")) {
+          $("#book-one").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate("#book-two")) {
+          $("#book-two").addClass("animated slideInRight");
+        }
+        if (shouldAnimate("#book-three")) {
+          $("#book-three").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate("#book-four")) {
+          $("#book-four").addClass("animated slideInRight");
+        }
+        if (shouldAnimate("#podcast-one")) {
+          $("#podcast-one").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate("#podcast-two")) {
+          $("#podcast-two").addClass("animated slideInRight");
+        }
+        if (shouldAnimate("#podcast-three")) {
+          $("#podcast-three").addClass("animated slideInLeft");
+        }
+        if (shouldAnimate("#podcast-four")) {
+          $("#podcast-four").addClass("animated slideInRight");
         }
       });
     </script>
