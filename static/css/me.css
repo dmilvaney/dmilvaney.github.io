@@ -114,6 +114,10 @@ h5{
   }
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
 .img-small {
   height: 88px;
   width: 88px;
