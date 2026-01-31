@@ -22,18 +22,19 @@ Push to `master` branch — GitHub Pages deploys automatically.
 
 ## Architecture
 
-- **Static site** — plain HTML/CSS/JS, no framework or build tooling
-- **index.html** — single-page layout with all content sections (about, career timeline, projects, learning) and inline JavaScript for scroll-triggered animations
-- **portfolio.html** — separate portfolio page
-- **static/css/me.css** — custom styles; `style.css`/`style.min.css` are the base Bootstrap theme
+- **Static site** — plain HTML/CSS/JS, no frameworks, no build tooling, no npm dependencies
+- **index.html** — single-page layout with sections: hero, about, four pillars (focus areas), career timeline, projects, footer
+- **static/css/main.css** — all styles using CSS custom properties, Grid/Flexbox layout, CSS animations. Mobile-first with breakpoints at 640px and 1024px
+- **static/js/main.js** — vanilla JS using IntersectionObserver for navbar scroll state, scroll-triggered reveal animations, active nav tracking, mobile nav toggle, and dynamic footer year
 - **static/img/** — images organized by section (`landing/`, `portfolio/`)
 - **static/pdf/** — downloadable documents (resume, thesis, project papers)
-- **node_modules/** — vendored frontend dependencies (Bootstrap 4.4.1, jQuery 3.5.1, Popper.js, Animate.css 3.7.2)
 
 ## Key Technical Details
 
-- Bootstrap 4 grid for responsive layout
-- jQuery handles scroll event listeners, element visibility detection (`isElementEnteringView`), and CSS animation triggers (fadeIn, slideIn, zoomIn via Animate.css classes)
-- Navbar background toggles on scroll
-- Header uses Bootstrap carousel
-- Font Awesome loaded via CDN for icons
+- CSS custom properties define the earth-tone color palette and spacing scale in `:root`
+- Google Fonts: Playfair Display (headings) and Source Sans 3 (body)
+- BEM class naming convention throughout
+- All scroll behavior uses `IntersectionObserver` (no jQuery)
+- Animations use CSS transitions triggered by adding `.is-visible` class to `.animate-on-scroll` elements
+- Hero uses CSS `background-image` with a gradient overlay
+- `@media (prefers-reduced-motion: reduce)` disables animations for accessibility
