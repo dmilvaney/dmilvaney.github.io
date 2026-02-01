@@ -23,7 +23,7 @@ Push to `master` branch — GitHub Pages deploys automatically.
 ## Architecture
 
 - **Static site** — plain HTML/CSS/JS, no frameworks, no build tooling, no npm dependencies
-- **index.html** — single-page layout with sections: hero, about, four pillars (focus areas), career timeline, projects, footer
+- **index.html** — single-page layout with sections: hero, about, four pillars (focus areas), career timeline, footer
 - **static/css/main.css** — all styles using CSS custom properties, Grid/Flexbox layout, CSS animations. Mobile-first with breakpoints at 640px and 1024px
 - **static/js/main.js** — vanilla JS using IntersectionObserver for navbar scroll state, scroll-triggered reveal animations, active nav tracking, mobile nav toggle, and dynamic footer year
 - **static/img/** — images organized by section (`landing/`, `portfolio/`)
