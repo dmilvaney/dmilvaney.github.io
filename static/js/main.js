@@ -63,26 +63,26 @@
     var navLinks = document.querySelectorAll('.nav__link');
     if (!sections.length || !navLinks.length) return;
 
-    var observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            var id = entry.target.getAttribute('id');
-            navLinks.forEach(function (link) {
-              link.classList.toggle(
-                'nav__link--active',
-                link.getAttribute('href') === '#' + id
-              );
-            });
-          }
-        });
-      },
-      { threshold: 0.2, rootMargin: '-72px 0px -50% 0px' }
-    );
+    function updateActiveLink() {
+      var offset = window.scrollY + 120;
+      var current = '';
 
-    sections.forEach(function (section) {
-      observer.observe(section);
-    });
+      sections.forEach(function (section) {
+        if (section.offsetTop <= offset) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(function (link) {
+        link.classList.toggle(
+          'nav__link--active',
+          link.getAttribute('href') === '#' + current
+        );
+      });
+    }
+
+    window.addEventListener('scroll', updateActiveLink, { passive: true });
+    updateActiveLink();
   }
 
   function setupScrollAnimations() {
