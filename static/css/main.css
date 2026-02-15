@@ -473,6 +473,7 @@ a:hover {
   border-radius: 4px;
   padding: var(--space-md);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
 }
 
 .timeline__card h3 {
@@ -504,8 +505,25 @@ a:hover {
   margin-top: var(--space-md);
 }
 
+/* Responsive video embed */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: var(--space-sm);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 4px;
+}
+
 /* Timeline responsive */
-@media (max-width: 639px) {
+@media (max-width: 900px) {
   .timeline::before {
     left: 20px;
   }
