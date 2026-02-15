@@ -565,12 +565,105 @@ a:hover {
   }
 }
 
+/* ========== SITE BOTTOM (shared contour background) ========== */
+.site-bottom {
+  background-color: var(--color-forest);
+  position: relative;
+  overflow: hidden;
+}
+
+.site-bottom::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../img/landing/contour_map.svg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.075;
+  pointer-events: none;
+}
+
+/* ========== CONNECT ========== */
+
+.connect__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-md);
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.connect__photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--color-sage);
+  flex-shrink: 0;
+}
+
+.connect__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connect__title {
+  font-family: var(--font-heading);
+  color: var(--color-white);
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+}
+
+.connect__text {
+  color: var(--color-sandstone);
+  font-size: 1.125rem;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.connect__actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn--outline {
+  background-color: transparent;
+  border: 2px solid var(--color-sandstone);
+  color: var(--color-sandstone);
+}
+
+.btn--outline:hover {
+  background-color: var(--color-sandstone);
+  color: var(--color-forest);
+}
+
+@media (min-width: 640px) {
+  .connect__inner {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .connect__content {
+    align-items: flex-start;
+  }
+
+  .connect__actions {
+    justify-content: flex-start;
+  }
+}
+
 /* ========== FOOTER ========== */
 .footer {
-  background-color: var(--color-forest);
   color: var(--color-sandstone);
   padding: var(--space-md) 0;
   text-align: center;
+  position: relative;
 }
 
 .footer p {

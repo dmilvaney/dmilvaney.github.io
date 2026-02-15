@@ -26,6 +26,7 @@
         <li><a class="nav__link" href="#about">About</a></li>
         <li><a class="nav__link" href="#pillars">Interests</a></li>
         <li><a class="nav__link" href="#career">Career</a></li>
+        <li><a class="nav__link" href="#connect">Connect</a></li>
       </ul>
     </nav>
   </header>
@@ -144,17 +145,35 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__links">
-        <a href="https://github.com/dmilvaney" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/dmilvaney" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://www.strava.com/athletes/9885019" target="_blank" rel="noopener">Strava</a>
+  <!-- CONNECT + FOOTER (shared contour background) -->
+  <div class="site-bottom">
+    <section class="connect section" id="connect">
+      <div class="container">
+        <div class="connect__inner animate-on-scroll">
+          <img class="connect__photo" src="static/img/landing/doug.jpg" alt="Doug Milvaney" width="200" height="200" loading="lazy">
+          <div class="connect__content">
+            <h2 class="connect__title">Let's Connect</h2>
+            <p class="connect__text">I'm always interested in meeting people who share a passion for technology, the outdoors, or building products that make a difference. Whether you want to talk shop about AI, swap trail recommendations, or explore working together — I'd love to hear from you.</p>
+            <div class="connect__actions">
+              <a class="btn" href="mailto:doug@dougmilvaney.com">Get in Touch</a>
+              <a class="btn btn--outline" href="https://linkedin.com/in/dmilvaney" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <p>&copy; <span class="footer-year"></span> Doug Milvaney</p>
-    </div>
-  </footer>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links">
+          <a href="https://github.com/dmilvaney" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/dmilvaney" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.strava.com/athletes/9885019" target="_blank" rel="noopener">Strava</a>
+        </div>
+        <p>&copy; <span class="footer-year"></span> Doug Milvaney</p>
+      </div>
+    </footer>
+  </div>
 
   <script src="static/js/main.js"></script>
 </body>

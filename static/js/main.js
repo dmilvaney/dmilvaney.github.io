@@ -69,10 +69,16 @@
       var current = '';
 
       sections.forEach(function (section) {
-        if (section.offsetTop <= offset) {
+        var top = section.getBoundingClientRect().top + window.scrollY;
+        if (top <= offset) {
           current = section.getAttribute('id');
         }
       });
+
+      // If scrolled to bottom, activate the last section
+      if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
+        current = sections[sections.length - 1].getAttribute('id');
+      }
 
       navLinks.forEach(function (link) {
         link.classList.toggle(
