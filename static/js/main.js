@@ -8,6 +8,7 @@
     setupNavbarScroll();
     setupActiveNavTracking();
     setupScrollAnimations();
+    setupScrollIndicator();
     setFooterYear();
   }
 
@@ -104,6 +105,18 @@
     elements.forEach(function (el) {
       observer.observe(el);
     });
+  }
+
+  function setupScrollIndicator() {
+    var scrollArrow = document.querySelector('.hero__scroll-arrow');
+    if (!scrollArrow) return;
+
+    function stopBounce() {
+      scrollArrow.style.animation = 'none';
+    }
+
+    window.addEventListener('scroll', stopBounce, { once: true, passive: true });
+    scrollArrow.closest('.hero__scroll').addEventListener('click', stopBounce);
   }
 
   function setFooterYear() {
