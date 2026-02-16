@@ -287,6 +287,13 @@ a:hover {
   }
 }
 
+/* Disable parallax on touch devices (background-attachment: fixed breaks on iOS) */
+@media (hover: none) {
+  .hero {
+    background-attachment: scroll;
+  }
+}
+
 /* ========== HERO ========== */
 .hero {
   position: relative;
