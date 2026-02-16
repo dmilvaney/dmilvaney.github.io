@@ -53,7 +53,7 @@
           header.classList.toggle('scrolled', !entry.isIntersecting);
         });
       },
-      { threshold: 0, rootMargin: '-72px 0px 0px 0px' }
+      { threshold: 1 }
     );
 
     observer.observe(hero);
