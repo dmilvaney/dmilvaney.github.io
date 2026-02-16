@@ -304,7 +304,6 @@ a:hover {
   background-image: url('../img/landing/beehive.jpeg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .hero__overlay {
@@ -363,6 +362,13 @@ a:hover {
   0%, 20%, 50%, 80%, 100% { translate: 0 0; }
   40% { translate: 0 8px; }
   60% { translate: 0 4px; }
+}
+
+/* Parallax only on non-touch devices (background-attachment: fixed breaks iOS) */
+@media (hover: hover) {
+  .hero {
+    background-attachment: fixed;
+  }
 }
 
 /* ========== ABOUT ========== */
