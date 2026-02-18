@@ -35,11 +35,38 @@
     // Close on outside click
     document.addEventListener('click', function (e) {
       if (!navList.contains(e.target) && !toggle.contains(e.target)) {
-        navList.classList.remove('nav-open');
-        toggle.classList.remove('active');
-        toggle.setAttribute('aria-expanded', 'false');
+        closeNav();
       }
     });
+
+    // Close on Escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && navList.classList.contains('nav-open')) {
+        closeNav();
+        toggle.focus();
+      }
+    });
+
+    // Trap focus within open nav
+    navList.addEventListener('keydown', function (e) {
+      if (e.key !== 'Tab' || !navList.classList.contains('nav-open')) return;
+      var focusable = navList.querySelectorAll('a, button');
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
+
+    function closeNav() {
+      navList.classList.remove('nav-open');
+      toggle.classList.remove('active');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
   }
 
   function setupNavbarScroll() {

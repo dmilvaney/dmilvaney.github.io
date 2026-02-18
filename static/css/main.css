@@ -92,6 +92,23 @@ a:hover {
   color: var(--color-link-hover);
 }
 
+/* ========== FOCUS STYLES ========== */
+:focus-visible {
+  outline: 2px solid var(--color-clay);
+  outline-offset: 3px;
+}
+
+.btn:focus-visible {
+  outline-color: var(--color-forest);
+}
+
+.btn--outline:focus-visible,
+.nav__link:focus-visible,
+.nav__brand:focus-visible,
+.footer a:focus-visible {
+  outline-color: var(--color-sandstone);
+}
+
 /* ========== UTILITIES ========== */
 .visually-hidden {
   position: absolute;
