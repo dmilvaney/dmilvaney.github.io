@@ -179,11 +179,21 @@ a:hover {
 }
 
 .nav__brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-white);
   transition: color 0.3s ease;
+}
+
+.nav__logo {
+  width: 72px;
+  height: 36px;
+  flex-shrink: 0;
 }
 
 .nav__brand:hover {
@@ -250,6 +260,10 @@ a:hover {
 
 .site-header.scrolled .nav__brand {
   color: var(--color-white);
+}
+
+.site-header.scrolled .nav__brand:hover {
+  color: var(--color-sandstone);
 }
 
 .site-header.scrolled .nav__link {
