@@ -27,7 +27,7 @@ This is the source for [dougmilvaney.com](https://dougmilvaney.com) — a single
 | Markup | Semantic HTML5 |
 | Styles | Vanilla CSS — custom properties, Grid/Flexbox, `@media` breakpoints |
 | Scripts | Vanilla JS — `IntersectionObserver`, no dependencies |
-| Fonts | Google Fonts: Raleway (headings, nav, hero) + Lato (body copy) |
+| Fonts | Google Fonts: Playfair Display (h1/h2, nav brand, hero title) + Lato (h3/h4, nav links, hero subtitle, body copy) |
 | Hosting | GitHub Pages (static, no build step) |
 | SEO | Open Graph, Twitter Card, JSON-LD, canonical URL, `robots.txt`, `sitemap.xml` |
 
